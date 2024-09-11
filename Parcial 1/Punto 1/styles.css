@@ -1,0 +1,135 @@
+.topbar{
+    background: #282828;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+}
+
+.topbar ul li{
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.white-element{
+    background: #ffffff;
+    height: 50px;
+}
+
+.first, .third{
+    width: 450px;
+}
+
+.second, .fourth, .fifth{
+    width: 225px;
+}
+
+.sidebar{   
+    background: #1b1b1b;
+    height: 85%;
+    width: 500px;
+    position: absolute;
+    right: 0;
+    margin-right: 8px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.yellow-circle{
+    background-color: #debb44;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin-left: 30px;
+}
+
+.top ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.first-redbar{
+    width: 200px;
+    height: 30px;
+    background-color: #e66c69;
+}
+
+.second-redbar{
+    width: 150px;
+    height: 30px;
+    background-color: #e66b698f;
+}
+
+.third-redbar{
+    width: 100px;
+    height: 30px;
+    background-color: #e66b6941;
+}
+
+.bottom ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 50px;
+    height: 600px;
+}
+
+.long-red{
+    width: 380px;
+    height: 12px;
+    background-color: #e66c69;
+}
+
+.medium-yellow{
+    width: 240px;
+    height: 12px;
+    background-color: #debb44;
+}
+
+.medium-red{
+    width: 240px;
+    height: 12px;
+    background-color: #e66c69;
+}
+
+.small-green{
+    width: 120px;
+    height: 12px;
+    background-color: #46aa7d;
+}
+
+.short-red{
+    width: 40px;
+    height: 12px;
+    background-color: #e66c69;
+}
+
+.main-container{
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    width: 72%;
+}
+
+.main-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    flex: 3;
+}
+
+.box{
+    height: 380px;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+}

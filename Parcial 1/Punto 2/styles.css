@@ -1,0 +1,385 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.upper-bar{
+    background-color: #f1f1f1;
+    display: flex;
+    height: 35px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.upper-bar a{
+    text-decoration: none;
+}
+
+.upper-header{
+    background-color: #015dca;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper-header img{
+    height: 20px;
+}
+
+.govco{
+    margin-left: 50px;
+}
+
+.ENGLISH-btn{
+    margin-right: 50px;
+    height: 22px;
+}
+
+.login-bar{
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.login-bar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.login-bar ul li{
+    padding: 15px;
+    color: gray;
+}
+
+.login-bar button{
+    border: none;
+    background-color: #ffffff;
+    color: gray;
+    cursor: pointer;
+}
+
+.header-container{
+    height: 188.44px;
+}
+
+.header-container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container img{
+    height: 102.5px;
+}
+
+.search-bar .buscar{
+    border: solid 1px gray;
+}
+
+.search-bar .buscar::placeholder{
+    color: #000000;
+}
+
+.submitt{
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-decoration: none;
+    margin: 2px 1px;
+    cursor: pointer;
+}
+
+.navbar{
+    height: 30px;
+    background-color: #c9c6c6;
+    width: 100%;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li strong{
+    margin-left: 10px;
+    color: #00af00;
+}
+
+.navbar-btn{
+    background-color: transparent;
+    border: none;
+    color: gray;
+    padding: 4px 8px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.main{
+    background-color: #f1eeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.publicidad{
+    margin: 30px;
+    width: 1028px;
+}
+
+.main-navbar{
+    width: 1028px;
+}
+
+.main-navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-navbar-btn{
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff;
+    height: 100px;
+    width: 200px;
+    margin: 8px;
+}
+
+.main-navbar-btn:hover{
+    border-bottom: 5px solid gray;
+}
+
+.news-container{
+    border: solid 1px gray;
+    border-radius: 10px;
+    width: 80%;
+    background-color: #ffffff;
+}
+
+.lastest{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.lastest img{
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
+
+.bottom-bar{
+    height: 5px;
+    width: 80%;
+    background-color: #00af00;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.news-list h1 a{
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+}
+
+.news-list h1 a:hover{
+    text-decoration: underline;
+}
+
+.news-list h6{
+    color: rgb(143, 142, 142);
+}
+
+.news-list p{
+    color: rgb(122, 122, 122);
+}
+
+.academic-offer-container{
+    border: solid 1px gray;
+    border-radius: 10px;
+    width: 80%;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+
+.academic-offer{
+    padding-left: 15px;
+}
+
+.form-container{
+    background-color: gray;
+    width: 50%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.form-container h2{
+    color: #ffffff;
+}
+
+.checkbox{
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.oferta-btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.oferta-btn .search-btn{
+    border: none;
+    background-color: #00af00;
+    color: #ffffff;
+    height: 40px;
+    width: 130px;
+    cursor: pointer;
+}
+
+.oferta-btn .search-btn:hover{
+    border-bottom: solid 2px gray;
+}
+
+.bottom-navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-navbar button{
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin: 0px 5px;
+}
+
+.bottom-navbar button:hover{
+    border-bottom: solid 3px gray;
+}
+
+.sector-trabajo{
+    border: solid 1px gray;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.sector-trabajo h1{
+    padding-left: 15px;
+}
+
+.sector-trabajo ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sector-trabajo img{
+    height: 150px;
+    width: 300px;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.sector-trabajo img:hover{
+    filter: none;
+}
+
+footer{
+    background-color: #f1eeee;
+}
+
+.outside-servicio-nacional{
+    background-color: #00af00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicio-nacional{
+    border: solid 1px #ffffff;
+    background-color: #ffffff;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.servicio-nacional h1, h2{
+    color: rgb(83, 83, 83);
+}
+
+.servicio-nacional p{
+    color: gray;
+}
+
+.servicio-nacional-up ul{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.images-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images-footer img{
+    height: 100px;
+}
+
+.servicio-nacional-mid ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.servicio-nacional-mid ul a{
+    color: gray;
+}
+
+.servicio-nacional-bottom ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicio-nacional-bottom ul a{
+    padding-bottom: 20px;
+    color: blue;
+}
+
+.govco-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #015dca;
+}
+
+.colombia{
+    height: 48px;
+    width: 48px;
+}
